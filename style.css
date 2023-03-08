@@ -1,0 +1,14 @@
+* {
+    font-family:  'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    margin: 0;
+}
+
+
+body {
+    background-color: var(--instagram-profile-bg);
+}
+button{
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}

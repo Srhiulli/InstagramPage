@@ -1,0 +1,67 @@
+
+header {
+    border-bottom: 1px solid var(--instagram-profile-border);
+    height: 44px;
+    display: flex;
+}
+
+header div {
+    display: flex;
+    background-color: transparent;
+    align-items: center;
+    box-sizing: border-box;
+    justify-content: space-between;
+    padding: 0 16px;
+    width: 100%;
+}
+header button#explorepeople {
+    justify-content: flex-end;
+}
+header button#configuration {
+    align-items: flex-start;
+}
+button.buttonimg{
+    flex: 1 32px;
+    width: 32px;
+    height: 24px;
+    flex-direction: row;
+    border: none;
+    background-color: transparent;
+}
+div#middlebutton {
+    flex: 8 459px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    
+    height: 10px;
+    font-size: 16px;
+    padding: 7px 16px;
+    color: rgb(var(--ig-primary-text));
+}
+
+div.swithcounts{
+    justify-content: center; 
+    align-items: center; 
+    
+    width: 50%;
+    margin: 0 auto; 
+    padding: 4px;
+    font-size: 16px;
+}
+
+div.swithcounts:nth-child(1){
+    width: 10%;
+    justify-content: flex-end;
+    padding: 0;
+    margin: 0;
+    font-weight: 650;
+}
+div.swithcounts:nth-child(2){
+    width: 30%;
+    justify-content: flex-start;
+    padding: 0;
+    margin: 0;
+}
+
