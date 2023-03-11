@@ -1,0 +1,55 @@
+
+#posts-followers-following{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-top: 1px solid rgb(219, 219, 219);
+    border-bottom: 1px solid rgb(219, 219, 219);
+
+    padding: 12px 0;
+
+    height: 35px;
+    width: 100%;
+}
+.list-posts-followers-following{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+}
+.posts{
+  width: 33.33%;
+  height: 36px;
+  list-style: none;
+}
+.followers{
+   width: 33.33%;
+   height: 36px;
+  list-style: none;
+}
+.following{
+  width: 33.33%;
+  height: 36px;
+  list-style: none;
+}
+.div-posts-followers-following{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+  font-size: 14px;
+  
+
+  height: 36px;
+  width: 36px;
+  margin-left: 40%;
+
+}
+
+.div-posts-followers-following p{
+    color: rgb(128, 127, 127);
+}

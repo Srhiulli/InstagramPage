@@ -1,0 +1,140 @@
+#main {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+
+  margin: 0 auto 30px;
+  width: 412px;
+  /* width: 30%; */
+  padding: 0;
+
+  border-left: 1px solid;
+  border-right: 1px solid;
+  border-top: 1px solid var(--instagram-profile-border);
+
+
+  background-color: #F5F6F7;
+
+}
+
+#profile-configuration {
+  display: flex;
+  flex: 2 0 84px;
+  gap: 5%;
+  flex-wrap: wrap;
+  row-gap: 15px;
+  background-color: #F5F6F7;
+
+  margin: 16px 16px 24px;
+
+}
+
+.profile-photo {
+  height: 77px;
+  width: 77px;
+  display: flex;
+  background-color: #F5F6F7;
+
+}
+
+.profile-photo img {
+  flex: 1;
+  border-radius: 50% 50%;
+  height: 77px;
+  width: 77px;
+}
+
+.edit-profile {
+  display: flex;
+  flex-direction: column;
+  width: 252px;
+  height: 84px;
+  background-color: #F5F6F7;
+  gap: 12px;
+
+
+}
+
+.profile {
+  display: flex;
+  gap: 1px;
+  height: 40px;
+  width: 150px;
+  align-items: center;
+
+}
+
+div.name-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #F5F6F7;
+
+
+  height: 40px;
+  width: 10%;
+}
+
+.user-name {
+  padding: 0;
+  margin: 0;
+  width: 39%;
+  height: 25px;
+  background-color: #F5F6F7;
+
+
+  font-weight: 400;
+
+  flex: 3 0;
+  justify-content: flex-start;
+  display: flex;
+}
+
+.configuration-button {
+  padding: 0;
+  margin: 0;
+  width: 24px;
+  background-color: #F5F6F7;
+
+
+  flex: 1 0;
+  display: flex;
+}
+
+.configuration-button img {
+  width: 24px;
+  height: 24px;
+}
+
+.button-edit-profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  background-color: #F5F6F7;
+
+
+  padding: 7px 16px;
+  height: 32px;
+  width: 250px;
+
+  border-radius: 8px;
+  background-color: lightgrey;
+  color: rgb(vr(--web-always-black));
+  text-align: center;
+  font-size: 14px;
+}
+
+div.profile-name {
+  display: flex;
+  flex-direction: column;
+
+
+  width: 100%;
+  height: 40%;
+  font-size: 14px;
+}
+
+.profile-name:nth-child(2) {
+  border-left: 10px;
+}

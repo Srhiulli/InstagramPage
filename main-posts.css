@@ -1,0 +1,21 @@
+#posts{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
+    /* justify-content: space-between; */
+    margin: 0;
+    width: 100%;
+}
+.photo{
+    display: flex;
+    flex-wrap: wrap;
+
+    margin: 0;
+
+    width: 136px;
+
+}
+/* .photo img{
+    min-width: 136px;
+    min-height: 136px;
+} */
